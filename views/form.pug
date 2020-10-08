@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+    body
+        a(href="/") back
+        form(action="/form", method="post")
+            input(type="text", name="username" placeholder="username")
+            br
+            br
+            input(type="password", name="password" placeholder="password")
+            br
+            br
+            label(for="check") A 
+                input(type="radio" name="agree_with" value="A")
+            label(for="check") B
+                input(type="radio" name="agree_with" value="B")
+            button(type="submit") submit
